@@ -10,7 +10,7 @@ function isXOROddOrEven(L, R) {
 }
 
 function countNumberOfOddsInRange(L, R) {
-  let numOfOdds = (L + R) / 2;
+  let numOfOdds = (R - L) / 2;
   return R % 2 === 1 || L % 2 === 1 ? numOfOdds + 1 : numOfOdds;
 }
 
